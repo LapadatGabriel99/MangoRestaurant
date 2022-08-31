@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{850F9CF2-C70C-44DD-8D07-0BEEBE19BB0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9F16AA1D-8EB8-4DB4-8D1D-663D67F05F77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{D9C91E6A-9D97-433A-9D68-6F851A350D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{2C3315D8-F29C-4633-BB6F-2FF78F00C79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Frontend\Mango.Web\Mango.Web.csproj", "{89ADFBD7-61AC-4F8C-981D-8E463D852BDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF} = {850F9CF2-C70C-44DD-8D07-0BEEBE19BB0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C7B2F2-224A-4B03-8477-33CF437178EB}
+	EndGlobalSection
+EndGlobal
