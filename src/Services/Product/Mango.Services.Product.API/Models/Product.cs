@@ -11,11 +11,13 @@ namespace Mango.Services.Product.API.Models
         public string Name { get; set; }
 
         [Range(1, 1000)]
-        public string Price { get; set; }
+        public double Price { get; set; }
 
         public string Description { get; set; }
 
         public List<ProductCategory> ProductCategories { get; set; }
+
+        public string CategoryName { get; set; }
 
         public string ImageUrl { get; set; }
     }
