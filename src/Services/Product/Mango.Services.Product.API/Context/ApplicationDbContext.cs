@@ -30,6 +30,46 @@ namespace Mango.Services.Product.API.Context
                 .WithMany(c => c.ProductCategories)
                 .HasForeignKey(c => c.CategoryId);
 
+            modelBuilder.Entity<Models.Product>().HasData(new Models.Product
+            {
+                Id = 1,
+                Name = "Samos",
+                Price = 15,
+                Description = "asvawgawg  awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagva vawgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagvaawgawvagva",
+                ImageUrl = "https://gabimango.blob.core.windows.net/mango/14.jpg",
+                CategoryName = "Appetizer"
+            });
+
+            modelBuilder.Entity<Models.Product>().HasData(new Models.Product
+            {
+                Id = 2,
+                Name = "Paneer Tikka",
+                Price = 16,
+                Description = "asvawgawg  awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagva vawgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagvaawgawvagva",
+                ImageUrl = "https://gabimango.blob.core.windows.net/mango/12.jpg",
+                CategoryName = "Appetizer"
+            });
+
+            modelBuilder.Entity<Models.Product>().HasData(new Models.Product
+            {
+                Id = 3,
+                Name = "Sweet Pie",
+                Price = 17,
+                Description = "asvawgawg  awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagva vawgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagvaawgawvagva",
+                ImageUrl = "https://gabimango.blob.core.windows.net/mango/11.jpg",
+                CategoryName = "Desert"
+            });
+
+            modelBuilder.Entity<Models.Product>().HasData(new Models.Product
+            {
+                Id = 4,
+                Name = "Pav Bhaji",
+                Price = 20,
+                Description = "asvawgawg  awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagva vawgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagva awgawvagvaawgawvagva awgawvagvaawgawvagva",
+                ImageUrl = "https://gabimango.blob.core.windows.net/mango/13.jpg",
+                CategoryName = "Entree"
+            });
+
             base.OnModelCreating(modelBuilder);
         }
     }
