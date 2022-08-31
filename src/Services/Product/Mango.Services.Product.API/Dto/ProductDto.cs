@@ -13,7 +13,7 @@ namespace Mango.Services.Product.API.Dto
 
         public string Description { get; set; }
 
-        public List<CategoryDto> CategoriesDto { get; set; }
+        public string CategoryName { get; set; }
 
         public string ImageUrl { get; set; }
     }
