@@ -9,7 +9,7 @@ namespace Mango.Services.Product.API.Controllers
     [Route("api/products")]
     public class ProductController : ControllerBase
     {
-        private ResponseDto _response;
+        private readonly ResponseDto _response;
 
         private readonly IProductRepository _productRepository;
 
