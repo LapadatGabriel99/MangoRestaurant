@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Frontend\Mango
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{80D787F7-B9AD-443D-8661-6A325B2419AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.Product.API", "Services\Product\Mango.Services.Product.API\Mango.Services.Product.API.csproj", "{93EECF25-987C-4020-843D-61B66A27BFAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.Product.API", "Services\Product\Mango.Services.Product.API\Mango.Services.Product.API.csproj", "{93EECF25-987C-4020-843D-61B66A27BFAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{3026C8E9-B90A-4E69-A5DB-18F02EF9B30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.Identity", "Services\Identity\Mango.Services.Identity\Mango.Services.Identity.csproj", "{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{93EECF25-987C-4020-843D-61B66A27BFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EECF25-987C-4020-843D-61B66A27BFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EECF25-987C-4020-843D-61B66A27BFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,8 @@ Global
 		{89ADFBD7-61AC-4F8C-981D-8E463D852BDF} = {850F9CF2-C70C-44DD-8D07-0BEEBE19BB0F}
 		{80D787F7-B9AD-443D-8661-6A325B2419AB} = {9F16AA1D-8EB8-4DB4-8D1D-663D67F05F77}
 		{93EECF25-987C-4020-843D-61B66A27BFAF} = {80D787F7-B9AD-443D-8661-6A325B2419AB}
+		{3026C8E9-B90A-4E69-A5DB-18F02EF9B30C} = {9F16AA1D-8EB8-4DB4-8D1D-663D67F05F77}
+		{D71C7BDC-C89E-4891-BA4A-E5565C7FFCE8} = {3026C8E9-B90A-4E69-A5DB-18F02EF9B30C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35C7B2F2-224A-4B03-8477-33CF437178EB}
