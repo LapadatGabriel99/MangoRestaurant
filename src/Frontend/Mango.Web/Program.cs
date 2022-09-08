@@ -6,8 +6,11 @@ using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<JwtTokenHeaderHandlerService>();
+
 // Add services to the container.
-builder.Services.AddHttpClient("MangoApi");
+builder.Services.AddHttpClient("MangoApi").AddHttpMessageHandler<JwtTokenHeaderHandlerService>();
 ApiDetails.ProductApiBase = builder.Configuration["ServiceUrls:ProductApi"];
 
 builder.Services.AddScoped<IProductService, ProductService>();
